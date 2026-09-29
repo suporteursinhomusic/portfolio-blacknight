@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlackNight — Python Developer & Bot Developer</title>
+  <meta name="description" content="Portfólio de BlackNight, desenvolvedor Python focado em bots, sistemas, automações e projetos para Discord.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="BlackNight — Python Developer & Bot Developer">
+  <meta property="og:description" content="Portfólio de BlackNight, desenvolvedor Python focado em bots, sistemas, automações e projetos para Discord.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background particles / geometric elements -->
+  <div class="bg-elements" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#inicio" class="logo">
+        <span class="logo-text">BlackNight</span>
+      </a>
+      
+      <nav class="nav-links" id="nav-links">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#sobre" class="nav-link">Sobre mim</a>
+        <a href="#projetos" class="nav-link">Projetos</a>
+        <a href="#experiencia" class="nav-link">Experiência</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+      
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+        <i data-lucide="menu" class="icon-menu"></i>
+        <i data-lucide="x" class="icon-close"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+      <div class="container hero-content">
+        <div class="hero-badge fade-in">
+          <span class="badge-dot"></span>
+          Disponível para projetos
+        </div>
+        
+        <h1 class="hero-title fade-in delay-1">
+          Olá, eu sou <span class="text-gradient">BlackNight</span>.
+        </h1>
+        
+        <p class="hero-subtitle fade-in delay-2">
+          Programador Python • Desenvolvedor de Bots • Criador de Sistemas
+        </p>
+        
+        <p class="hero-description fade-in delay-3">
+          Programador Python há cerca de 2 anos, apaixonado por tecnologia, automação e desenvolvimento de sistemas. Ao longo desse tempo, venho criando projetos próprios, bots para Discord, sistemas de proteção, economia, entretenimento e ferramentas para comunidades.
+        </p>
+        
+        <p class="hero-highlight fade-in delay-4">
+          <i data-lucide="sparkles" class="icon-sm"></i>
+          Transformando ideias em sistemas reais.
+        </p>
+        
+        <div class="hero-buttons fade-in delay-5">
+          <a href="#projetos" class="btn btn-primary">
+            <i data-lucide="folder-code" class="icon-sm"></i>
+            Ver meus projetos
+          </a>
+          <a href="#contato" class="btn btn-secondary">
+            <i data-lucide="message-circle" class="icon-sm"></i>
+            Entrar em contato
+          </a>
+        </div>
+        
+        <!-- Stats -->
+        <div class="stats fade-in delay-6">
+          <div class="stat-card">
+            <span class="stat-value">2+</span>
+            <span class="stat-label">Anos com Python</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">4+</span>
+            <span class="stat-label">Projetos de bots</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">Discord</span>
+            <span class="stat-label">Sistemas & Bots</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">Python</span>
+            <span class="stat-label">Linguagem principal</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <i data-lucide="user" class="icon-sm"></i>
+            Quem sou eu
+          </span>
+          <h2 class="section-title">Sobre mim</h2>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-content">
+            <p>
+              Comecei a programar por curiosidade e, com o tempo, transformei programação em uma das minhas principais áreas de interesse. Meu foco principal é Python, especialmente no desenvolvimento de bots, automações e sistemas para comunidades.
+            </p>
+            <p>
+              Tenho experiência trabalhando com APIs, bancos de dados, sistemas automatizados, integrações, Discord e desenvolvimento de funcionalidades personalizadas.
+            </p>
+          </div>
+          
+          <div class="tech-grid">
+            <div class="tech-card">
+              <div class="tech-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              </div>
+              <span>Python</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="bot"></i></div>
+              <span>Discord.py</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="bot"></i></div>
+              <span>Bots Discord</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="globe"></i></div>
+              <span>APIs</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="database"></i></div>
+              <span>Bancos de dados</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="workflow"></i></div>
+              <span>Automações</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="link"></i></div>
+              <span>Integração de APIs</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="coins"></i></div>
+              <span>Sistemas de economia</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="shield-check"></i></div>
+              <span>Sistemas de proteção</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="ticket"></i></div>
+              <span>Sistemas de tickets</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="code-2"></i></div>
+              <span>Funcionalidades custom</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="github"></i></div>
+              <span>Git / GitHub</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="server"></i></div>
+              <span>Hospedagem</span>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon"><i data-lucide="users"></i></div>
+              <span>Sistemas para comunidades</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="section section-alt" id="projetos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <i data-lucide="folder-code" class="icon-sm"></i>
+            Meu trabalho
+          </span>
+          <h2 class="section-title">Projetos</h2>
+          <p class="section-desc">Alguns dos bots e sistemas que desenvolvi ao longo da minha jornada.</p>
+        </div>
+        
+        <div class="projects-grid">
+          <!-- Ursinho Music - Featured -->
+          <article class="project-card project-featured">
+            <div class="project-header">
+              <div class="project-icon project-icon-featured">
+                <i data-lucide="music-2"></i>
+              </div>
+              <div class="project-status status-active">
+                <i data-lucide="circle-check" class="icon-xs"></i>
+                Ativo
+              </div>
+            </div>
+            <h3 class="project-title">Ursinho Music</h3>
+            <p class="project-type">Bot completo de música para Discord</p>
+            <p class="project-desc">
+              Ursinho Music é um bot brasileiro de música para Discord, desenvolvido para oferecer uma experiência completa de reprodução musical e interação dentro das comunidades.
+            </p>
+            <ul class="project-features">
+              <li><i data-lucide="play" class="icon-xs"></i> Reprodução de músicas</li>
+              <li><i data-lucide="sliders-horizontal" class="icon-xs"></i> Controles interativos</li>
+              <li><i data-lucide="audio-waveform" class="icon-xs"></i> Mixers e filtros de áudio</li>
+              <li><i data-lucide="list-music" class="icon-xs"></i> Playlists</li>
+              <li><i data-lucide="trophy" class="icon-xs"></i> Sistema de conquistas</li>
+              <li><i data-lucide="user" class="icon-xs"></i> Perfil e estatísticas</li>
+              <li><i data-lucide="brain" class="icon-xs"></i> Recursos inteligentes</li>
+              <li><i data-lucide="languages" class="icon-xs"></i> Suporte a múltiplos idiomas</li>
+              <li><i data-lucide="zap" class="icon-xs"></i> Sistemas automatizados</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Discord.py</span>
+              <span class="tech-badge">APIs</span>
+            </div>
+            <a href="https://discord.gg/fH4u8GN3ej" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+              <i data-lucide="external-link" class="icon-xs"></i>
+              Adicionar Ursinho Music
+            </a>
+          </article>
+
+          <!-- VX7 Guard -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i data-lucide="shield-check"></i>
+              </div>
+              <div class="project-status status-inactive">
+                <i data-lucide="circle-x" class="icon-xs"></i>
+                Desativado
+              </div>
+            </div>
+            <h3 class="project-title">VX7 Guard</h3>
+            <p class="project-type">Bot de proteção e segurança para Discord</p>
+            <p class="project-desc">
+              Projeto focado em proteção de servidores Discord contra ataques e atividades maliciosas. O VX7 Guard possuía sistemas voltados para proteção contra raids, gerenciamento de segurança, moderação e automações para ajudar administradores a manter suas comunidades protegidas.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Discord.py</span>
+              <span class="tech-badge">Moderação</span>
+            </div>
+          </article>
+
+          <!-- ArcadeX -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i data-lucide="gamepad-2"></i>
+              </div>
+              <div class="project-status status-inactive">
+                <i data-lucide="circle-x" class="icon-xs"></i>
+                Desativado
+              </div>
+            </div>
+            <h3 class="project-title">ArcadeX</h3>
+            <p class="project-type">Bot de jogos e entretenimento</p>
+            <p class="project-desc">
+              Bot desenvolvido para oferecer uma experiência de entretenimento dentro do Discord, contando com jogos, mini games e diferentes sistemas de interação para comunidades.
+            </p>
+            <ul class="project-features compact">
+              <li><i data-lucide="gamepad-2" class="icon-xs"></i> Mini games</li>
+              <li><i data-lucide="puzzle" class="icon-xs"></i> Jogos interativos</li>
+              <li><i data-lucide="sparkles" class="icon-xs"></i> Sistema de entretenimento</li>
+              <li><i data-lucide="terminal" class="icon-xs"></i> Comandos interativos</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Discord.py</span>
+            </div>
+          </article>
+
+          <!-- Hikaro -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i data-lucide="coins"></i>
+              </div>
+              <div class="project-status status-previous">
+                <i data-lucide="history" class="icon-xs"></i>
+                Projeto anterior
+              </div>
+            </div>
+            <h3 class="project-title">Hikaro</h3>
+            <p class="project-type">Bot de economia e jogos</p>
+            <p class="project-desc">
+              Bot focado em sistemas de economia, diversão e interação entre membros. O projeto reunia funcionalidades de economia virtual, jogos e sistemas de progressão para comunidades do Discord.
+            </p>
+            <ul class="project-features compact">
+              <li><i data-lucide="coins" class="icon-xs"></i> Economia virtual</li>
+              <li><i data-lucide="gamepad-2" class="icon-xs"></i> Jogos</li>
+              <li><i data-lucide="trending-up" class="icon-xs"></i> Sistemas de progressão</li>
+              <li><i data-lucide="users" class="icon-xs"></i> Interações entre usuários</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Discord.py</span>
+              <span class="tech-badge">Economia</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiência -->
+    <section class="section" id="experiencia">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <i data-lucide="briefcase-business" class="icon-sm"></i>
+            Trajetória
+          </span>
+          <h2 class="section-title">Experiência em Comunidades</h2>
+          <p class="section-desc">Experiências com administração, suporte, bots e gerenciamento de comunidades.</p>
+        </div>
+        
+        <div class="timeline">
+          <!-- Inject Cloud - Current -->
+          <div class="timeline-item timeline-current">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="exp-card">
+                <div class="exp-header">
+                  <div class="exp-icon">
+                    <i data-lucide="cloud"></i>
+                  </div>
+                  <div class="exp-status status-active">
+                    <i data-lucide="circle-check" class="icon-xs"></i>
+                    Atual
+                  </div>
+                </div>
+                <h3 class="exp-title">Inject Cloud</h3>
+                <p class="exp-role">Suporte</p>
+                <p class="exp-desc">Empresa/projeto relacionado à hospedagem de bots e aplicações.</p>
+                <ul class="exp-tags">
+                  <li><i data-lucide="headset" class="icon-xs"></i> Suporte</li>
+                  <li><i data-lucide="bot" class="icon-xs"></i> Hospedagem de bots</li>
+                  <li><i data-lucide="settings" class="icon-xs"></i> Auxílio com aplicações</li>
+                  <li><i data-lucide="server" class="icon-xs"></i> Infraestrutura e serviços</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gaviux -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="exp-card">
+                <div class="exp-header">
+                  <div class="exp-icon">
+                    <i data-lucide="users"></i>
+                  </div>
+                  <div class="exp-status status-previous">
+                    Experiência anterior
+                  </div>
+                </div>
+                <h3 class="exp-title">Gaviux</h3>
+                <p class="exp-role">Ex-Staff</p>
+                <p class="exp-desc">Atuação relacionada à administração e suporte da comunidade.</p>
+                <ul class="exp-tags">
+                  <li><i data-lucide="ticket" class="icon-xs"></i> Sistema de tickets</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nextron -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="exp-card">
+                <div class="exp-header">
+                  <div class="exp-icon">
+                    <i data-lucide="users"></i>
+                  </div>
+                  <div class="exp-status status-previous">
+                    Experiência anterior
+                  </div>
+                </div>
+                <h3 class="exp-title">Nextron</h3>
+                <p class="exp-role">Ex-Staff</p>
+                <p class="exp-desc">Atuação em suporte e administração da comunidade.</p>
+                <ul class="exp-tags">
+                  <li><i data-lucide="wrench" class="icon-xs"></i> Bots de utilidades</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vortex -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="exp-card">
+                <div class="exp-header">
+                  <div class="exp-icon">
+                    <i data-lucide="headset"></i>
+                  </div>
+                  <div class="exp-status status-previous">
+                    Experiência anterior
+                  </div>
+                </div>
+                <h3 class="exp-title">Vortex</h3>
+                <p class="exp-role">Ex-Suporte</p>
+                <p class="exp-desc">Atuação no suporte da comunidade.</p>
+                <ul class="exp-tags">
+                  <li><i data-lucide="ticket" class="icon-xs"></i> Sistema de tickets</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section section-contact" id="contato">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-content">
+            <span class="section-tag">
+              <i data-lucide="message-circle" class="icon-sm"></i>
+              Contato
+            </span>
+            <h2 class="section-title">Vamos conversar?</h2>
+            <p class="contact-desc">
+              Tem um projeto, uma ideia ou simplesmente quer trocar uma ideia sobre tecnologia? Entre em contato comigo pelo Discord.
+            </p>
+            <a href="https://discord.gg/fH4u8GN3ej" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+              <i data-lucide="message-circle" class="icon-sm"></i>
+              Entrar em contato pelo Discord
+            </a>
+            <p class="contact-note">
+              Disponível para conversar sobre projetos, programação, bots e tecnologia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">BlackNight</span>
+        <p class="footer-tagline">Python Developer • Bot Developer • Systems</p>
+        <p class="footer-quote">Construindo projetos, aprendendo todos os dias e transformando ideias em código.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://discord.gg/fH4u8GN3ej" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <i data-lucide="message-circle" class="icon-sm"></i>
+          Discord
+        </a>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 BlackNight. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
